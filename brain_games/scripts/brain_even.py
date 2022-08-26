@@ -5,7 +5,9 @@ def welcome():
     print('Welcome to the Brain Games!')
 
 def yours_name():
-    return prompt.string('May I have your name? ')
+    name = prompt.string('May I have your name? ')
+    print("Hello " + name + "!")
+    
 
 def hello(name):
     print(f'Hello, {name}!')
