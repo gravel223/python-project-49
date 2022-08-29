@@ -12,6 +12,9 @@ brain-even:
 brain-calc:
 	poetry run brain-calc
 
+brain-qcd:
+	poetry run brain-qcd
+
 build:
 	poetry build
 
