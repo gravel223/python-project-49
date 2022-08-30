@@ -28,10 +28,10 @@ def game(name):
         answer = input("Your answer: ")
         result = False
         result = logic_answer(answer, num)
-        if(result != True ):
-           return f"{answer}  is wrong answer ;(. Correct answer was 'no'\nLet's try again, {name}!"
-        else:
+        if(result == True ):
             print("Correct!")
+        else:
+            return f"{answer}  is wrong answer ;(. Correct answer was 'no' \n Let's try again, {name}"
     return f"Congratulations, {name}!"
     
 def main():
