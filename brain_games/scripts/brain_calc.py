@@ -17,16 +17,16 @@ def game(name):
         operator = operators()
         result = 0
         print("Question: " + str(num_one) + " " + operator + " " + str(num_two))
-        answer = int(input("Your answer: "))
+        answer = input("Your answer: ")
         if(operator == "+"):
             result = num_one + num_two
         else:
             result = num_one * num_two
-        if(answer != result):
-            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
-        else:
+        if(answer.isdigit() == True and int(answer) == result):
             print("Correct!")
-    return f"Congratulations, {name}"
+        else:
+            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
+    return f"Congratulations, {name}!" 
         
     
     
