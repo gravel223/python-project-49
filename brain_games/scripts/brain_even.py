@@ -32,7 +32,7 @@ def game(name):
             return "'yes' is wrong answer ;(. Correct answer was 'no'." + '\n' + "Let's try again"
         else:
             print("Correct!")
-    return "Congratulations, " + name
+    return f"Congratulations, {name}!"
     
 def main():
     welcome()
