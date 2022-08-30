@@ -15,6 +15,9 @@ brain-calc:
 brain-qcd:
 	poetry run brain-qcd
 
+brain-progression:
+	poetry run brain-progression
+
 build:
 	poetry build
 
