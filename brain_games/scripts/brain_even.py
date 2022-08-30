@@ -24,7 +24,7 @@ def game(name):
     print('Answer "yes" if the number is even, otherwise answer "no"')
     for i in range(3):
         num = random.randint(1, 100)
-        print("Question: ", num)
+        print(f"Question: {num}")
         answer = input("Your answer: ")
         result = False
         result = logic_answer(answer, num)
