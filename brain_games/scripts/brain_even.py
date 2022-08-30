@@ -8,11 +8,7 @@ def yours_name():
     name = prompt.string('May I have your name? ')
     print("Hello " + name + "!")
     return name
-    
 
-def hello(name):
-    print(f'Hello, {name}!')
-    print('Answer "yes" if the number is even, otherwise answer "no"')
 
 def is_even_number(num):
     return num % 2 == 0
@@ -25,7 +21,7 @@ def logic_answer(answer, num):
     
     
 def game(name):
-    hello(name)
+    print('Answer "yes" if the number is even, otherwise answer "no"')
     for i in range(3):
         num = random.randint(1, 100)
         print("Question: ", num)
