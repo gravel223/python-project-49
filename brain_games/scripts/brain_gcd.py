@@ -16,13 +16,13 @@ def game(name):
         num1 = random_nember()
         num2 = random_nember()
         print(f"Question: {num1} {num2}")
-        answer = int(input("Your answer: "))
+        answer = input("Your answer: ")
         result = greatest_common_divisor(num1, num2)
-        if(answer == result):
+        if(answer.isdigit() == True and int(answer) == result):
             print("Correct!")
         else:
             return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
-    return f"Congratulations, {name}"        
+    return f"Congratulations, {name}!"       
 
 
 def main():
