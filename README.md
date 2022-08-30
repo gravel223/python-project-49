@@ -7,3 +7,4 @@
 Пример игры brain-calc: https://asciinema.org/a/bEsM5GJs1XCpIsEFPnNaHJVoG
 Пример игры brain-gcd: https://asciinema.org/a/HW9OegAm8pEr3nbFBvcRiU5Or
 Пример игры brain-progression: https://asciinema.org/a/Xn418w0nTxtcA3vTmSNlZrWQR
+Пример игры brain-prime: https://asciinema.org/a/PdaZitgdrSPRKacGKzp7bCmvJ
