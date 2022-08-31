@@ -1,6 +1,8 @@
 from brain_games.scripts.brain_calc import random_nember
 from brain_games.scripts.brain_even import welcome
 from brain_games.scripts.brain_even import yours_name
+import prompt
+
 
 def greatest_common_divisor(a, b):
     while a != 0 and b != 0:
@@ -21,7 +23,7 @@ def game(name):
         if(answer.isdigit() == True and int(answer) == result):
             print("Correct!")
         else:
-            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
+            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}!"
     return f"Congratulations, {name}!"       
 
 
