@@ -22,8 +22,9 @@ def game(name):
         if(answer == result):
             print("Correct!")
         else:
-            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
+            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}!"
     return f"Congratulations, {name}!" 
+        
     
 def main():
     welcome()
