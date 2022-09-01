@@ -2,6 +2,7 @@ from brain_games.scripts.brain_calc import random_nember
 from brain_games.scripts.brain_even import welcome
 from brain_games.scripts.brain_even import yours_name
 
+
 def greatest_common_divisor(a, b):
     while a != 0 and b != 0:
         if(a > b):
@@ -9,7 +10,8 @@ def greatest_common_divisor(a, b):
         else:
             b = b % a
     return(a + b)
-        
+
+       
 def game(name):
     print("Find the greatest common divisor of given numbers.")
     for i in range(0, 3):
