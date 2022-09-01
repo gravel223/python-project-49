@@ -5,7 +5,7 @@ import random
 def create_geometric_progression():
     begin = random.randint(1, 150)
     q = random.randint(1, 5)
-    return [begin+i*q for i in range(1, 10)]
+    return [begin+i*q for i in range(10)]
     
         
         
@@ -24,7 +24,7 @@ def game(name):
         if(answer.isdigit() == True and int(answer) == result):
             print("Correct!")
         else:
-            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}"
+            return f"{answer}  is wrong answer ;(. Correct answer was {result} \n Let's try again, {name}!"
     return f"Congratulations, {name}!" 
         
 
