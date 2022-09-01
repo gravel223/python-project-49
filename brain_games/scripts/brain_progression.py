@@ -19,7 +19,7 @@ def game(name):
         result = progression[question]
         progression.remove(result)
         progression.insert(question, '..')
-        print("Question: ", ' '.join(progression))
+        print("Question: " + ' '.join(progression))
         answer = input("Your answer: ")
         if(answer.isdigit() == True and int(answer) == int(result)):
             print("Correct!")
