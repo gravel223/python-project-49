@@ -1,9 +1,6 @@
 from brain_games.scripts.brain_calc import random_nember
 from brain_games.scripts.brain_even import welcome
 from brain_games.scripts.brain_even import yours_name
-import prompt
-import random
-
 
 def greatest_common_divisor(a, b):
     while a != 0 and b != 0:
