@@ -11,10 +11,10 @@ brain-even:
 
 brain-calc:
 	poetry run brain-calc
-
-brain-qcd:
-	poetry run brain-qcd
-
+	
+brain-gcd:
+	poetry run brain-gcd
+	
 brain-progression:
 	poetry run brain-progression
 
